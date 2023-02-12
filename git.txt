@@ -1,24 +1,61 @@
-git~~~~~~~~~~~~~~~GIT~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~GIT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-------------COMANDOS-----------
+------------------------------------------------------------------------------COMANDOS-------------------------------------------------------------------------------------------------------------------------
+
+git init //inicializar git
+
 
 git log //para ver todas las versiones
 
+git log --oneline //nos muestra la información del log de forma simplificada
+
+
 git add nombre-de-archivo //añadir archivo
 
-git add .// añade todos los archivos de golpe
+git add . // añade todos los archivos de golpe
 
-git commit //crear una nueva versión
+
+git commit -m "descripción" //crear una nueva versión. el -m "descripción" es opcional
+
+git commit -am "descripción" //hacer commit y add a la vez (de nuevo m "descripcion" es opcional
+
+git commit --amend //abre vim, para editar la descripción de un commit por ejemplo
+
+
+git reset --hard códigodeverisón //volver a una versión del código anterior(se puede ver el código con git log). Ejemplo: git reset --hard  01cdac6
+
 
 git status //ver los cambios realizados y no realizados con los archivos
 
+
 git diff nombre-de-archivo //ver cambios realizados con las líneas de código
 
-git branch //lista de versiones alternativas
 
-git branch nombre-de-la-nueva-versión //crear una nueva versión alternativa
+git remote add origin linkdelrepositorioengithub //para agregar las cosas al repositorio de GitHub
 
-git checkout -- nombre-de-archivo //retroceder una versión
 
-git checkout nombre-de-versión-alternativa //cambiar entre versiones alternativas
+git tag nombreversion -m "descripción" //para crear una versión del proyecto. Ejemplo: git tag 12-02-23v1
+
+
+git branch -M main //creamos la rama principal bajo el nombre de main
+
+git branch nombre-de-la-nueva-rama //crear una nueva rama alternativa
+
+git branch //lista de ramas alternativas, además te indica en que rama te encuentras
+
+
+git checkout nombre-de-rama-alternativa //cambiar entre ramas alternativas
+
+git checkout -- nombredearchivo //retroceder una rama
+
+
+
+
+git push -u origin main //subimos los archivos a GitHub
+
+git push --tags //subimos la nueva versión a GitHub
+
+
+git pull //trae los archivos de github a local
+
 
