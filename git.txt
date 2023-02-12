@@ -2,6 +2,8 @@
 
 ------------------------------------------------------------------------------COMANDOS-------------------------------------------------------------------------------------------------------------------------
 
+-------------------------PRINCIPAL-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 git init //inicializar git
 
 
@@ -30,6 +32,7 @@ git status //ver los cambios realizados y no realizados con los archivos
 
 git diff nombre-de-archivo //ver cambios realizados con las líneas de código
 
+-------------------------GITHUB-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 git remote add origin linkdelrepositorioengithub //para agregar las cosas al repositorio de GitHub
 
@@ -38,6 +41,14 @@ git tag nombreversion -m "descripción" //para crear una versión del proyecto. 
 
 
 git branch -M main //creamos la rama principal bajo el nombre de main
+
+
+git push -u origin main //subimos los archivos a GitHub
+
+git push --tags //subimos la nueva versión a GitHub
+
+git pull //trae los archivos de github a local
+-------------------------RAMAS-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 git branch nombre-de-la-nueva-rama //crear una nueva rama alternativa
 
@@ -49,13 +60,4 @@ git checkout nombre-de-rama-alternativa //cambiar entre ramas alternativas
 git checkout -- nombredearchivo //retroceder una rama
 
 
-
-
-git push -u origin main //subimos los archivos a GitHub
-
-git push --tags //subimos la nueva versión a GitHub
-
-
-git pull //trae los archivos de github a local
-
-
+git merge nombrerama //fusionar dos ramas
