@@ -55,6 +55,10 @@ pegar el link del respositorio
 ENTER
 seleccionar donde lo queremos guardar
 LISTO ya hemos clonado el respositorio
+posteriormente nos dirigmos a el apartado de VSC para git
+le damos a los ... después de haber hecho commit
+seleccionamos insertar
+LISTO, SUBIDO A GITHUB
 
 
 -------------------------RAMAS-------------------------------------------------------------------------------------------------------------------------------------------------------------------
