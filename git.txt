@@ -30,8 +30,6 @@ git reset --hard códigodeverisón //volver a una versión del código anterior(
 git status //ver los cambios realizados y no realizados con los archivos
 
 
-git diff nombre-de-archivo //ver cambios realizados con las líneas de código
-
 -------------------------GITHUB-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 git remote add origin linkdelrepositorioengithub //para agregar las cosas al repositorio de GitHub
@@ -61,3 +59,5 @@ git checkout -- nombredearchivo //retroceder una rama
 
 
 git merge nombrerama //fusionar dos ramas
+
+git diff nombre-de-archivo //ver cambios realizados con las líneas de código
