@@ -52,7 +52,7 @@ git branch nombre_de-_la-_nueva-_rama //crear una nueva rama alternativa
 
 git branch //lista de ramas alternativas, además te indica en que rama te encuentras
 
-git branch -d nombre_rama
+git branch -d nombre_rama //eliminar una rama
 
 
 git checkout nombre_de_rama_alternativa //cambiar entre ramas alternativas
