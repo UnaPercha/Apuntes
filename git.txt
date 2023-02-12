@@ -46,6 +46,17 @@ git push -u origin main //subimos los archivos a GitHub
 git push --tags //subimos la nueva versión a GitHub
 
 git pull //trae los archivos de github a local
+
+PARA SINCRONIZAR UN REPOS DE GITHUB EN VSC ---->
+
+Ctrl+Shift+P //abre la paleta de comandos
+git clone/git clonar //especificamos que queremos clonar un repositorio de git
+pegar el link del respositorio
+ENTER
+seleccionar donde lo queremos guardar
+LISTO ya hemos clonado el respositorio
+
+
 -------------------------RAMAS-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 git branch nombre_de-_la-_nueva-_rama //crear una nueva rama alternativa
