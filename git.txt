@@ -12,7 +12,7 @@ git log //para ver todas las versiones
 git log --oneline //nos muestra la información del log de forma simplificada
 
 
-git add nombre-de-archivo //añadir archivo
+git add nombre_de_archivo //añadir archivo
 
 git add . // añade todos los archivos de golpe
 
@@ -24,7 +24,7 @@ git commit -am "descripción" //hacer commit y add a la vez (de nuevo m "descrip
 git commit --amend //abre vim, para editar la descripción de un commit por ejemplo
 
 
-git reset --hard códigodeverisón //volver a una versión del código anterior(se puede ver el código con git log). Ejemplo: git reset --hard  01cdac6
+git reset --hard código_de_verisón //volver a una versión del código anterior(se puede ver el código con git log). Ejemplo: git reset --hard  01cdac6
 
 
 git status //ver los cambios realizados y no realizados con los archivos
@@ -32,10 +32,10 @@ git status //ver los cambios realizados y no realizados con los archivos
 
 -------------------------GITHUB-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-git remote add origin linkdelrepositorioengithub //para agregar las cosas al repositorio de GitHub
+git remote add origin link_del_repositorio_en_github //para agregar las cosas al repositorio de GitHub
 
 
-git tag nombreversion -m "descripción" //para crear una versión del proyecto. Ejemplo: git tag 12-02-23v1
+git tag nombre_version -m "descripción" //para crear una versión del proyecto. Ejemplo: git tag 12-02-23v1
 
 
 git branch -M main //creamos la rama principal bajo el nombre de main
@@ -48,16 +48,18 @@ git push --tags //subimos la nueva versión a GitHub
 git pull //trae los archivos de github a local
 -------------------------RAMAS-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-git branch nombre-de-la-nueva-rama //crear una nueva rama alternativa
+git branch nombre_de-_la-_nueva-_rama //crear una nueva rama alternativa
 
 git branch //lista de ramas alternativas, además te indica en que rama te encuentras
 
-
-git checkout nombre-de-rama-alternativa //cambiar entre ramas alternativas
-
-git checkout -- nombredearchivo //retroceder una rama
+git branch -d nombre_rama
 
 
-git merge nombrerama //fusionar dos ramas
+git checkout nombre_de_rama_alternativa //cambiar entre ramas alternativas
 
-git diff nombre-de-archivo //ver cambios realizados con las líneas de código
+git checkout -- nombre_de_archivo //retroceder una rama
+
+
+git merge nombre_rama //fusionar dos ramas
+
+git diff nombre_de_archivo //ver cambios realizados con las líneas de código
