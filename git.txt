@@ -83,3 +83,13 @@ git checkout -- nombre_de_archivo //retroceder una rama
 git merge nombre_rama //fusionar dos ramas
 
 git diff nombre_de_archivo //ver cambios realizados con las líneas de código
+
+-------------------------FORK-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        https://www.youtube.com/watch?v=4YlHQAETkPs&list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU&index=10&ab_channel=pildorasinformaticas
+SOMOS UN USUARIO QUE ENCUENTRA UN REPOSITORIO INTERESANTE
+    una vez encontremos un repositorio de github que nos interese
+    pulsar botón fork situado en la esquina superior derecha
+    y se nos comienza a hacer una copia de ese respositorio en nuesto perfil de github
+    
+
+SOMOS EL DUEÑO DEL REPOSITORIO INTERESANTE
