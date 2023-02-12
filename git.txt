@@ -60,6 +60,11 @@ le damos a los ... después de haber hecho commit
 seleccionamos insertar
 LISTO, SUBIDO A GITHUB
 
+Si hemos hecho cambios desde github y lo queremos traer a vsc nos vamos a
+el botón de abajo a la izquierda al lado de la rama en la barra inferior
+son como dos flechas en rotonda
+le picamos y listo
+
 
 -------------------------RAMAS-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
