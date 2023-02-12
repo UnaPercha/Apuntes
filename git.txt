@@ -91,5 +91,17 @@ SOMOS UN USUARIO QUE ENCUENTRA UN REPOSITORIO INTERESANTE
     pulsar botón fork situado en la esquina superior derecha
     y se nos comienza a hacer una copia de ese respositorio en nuesto perfil de github
     
+    para que el dueño lo vea pulsamos en pull request situado debajo de la dirección de nuestro respositorio en github
+    pulsamos en New pull request
+    pulsamos en Create pull request
+    Escribimos título y comentario de la pull request
+    lo eviamos
 
 SOMOS EL DUEÑO DEL REPOSITORIO INTERESANTE
+    nos dirigmos al repositorio
+    le damos en pull request
+    clicamos en el que nos interese
+        podemos ver los cambios dandole en File changed
+        si vemos los cambios nos sale un boton que dice Review changes en la cual podemos hablarle al otro programador
+    para aceptar la pull request le damos a merge pull request
+    confirm merge
