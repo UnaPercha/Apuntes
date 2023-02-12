@@ -68,7 +68,7 @@ le picamos y listo
 
 -------------------------RAMAS-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-git branch nombre_de-_la-_nueva-_rama //crear una nueva rama alternativa
+git branch nombre_de_la_nueva_rama //crear una nueva rama alternativa
 
 git branch //lista de ramas alternativas, además te indica en que rama te encuentras
 
