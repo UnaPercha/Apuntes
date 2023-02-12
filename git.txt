@@ -1,0 +1,24 @@
+git~~~~~~~~~~~~~~~GIT~~~~~~~~~~~~~~~
+
+------------COMANDOS-----------
+
+git log //para ver todas las versiones
+
+git add nombre-de-archivo //añadir archivo
+
+git add .// añade todos los archivos de golpe
+
+git commit //crear una nueva versión
+
+git status //ver los cambios realizados y no realizados con los archivos
+
+git diff nombre-de-archivo //ver cambios realizados con las líneas de código
+
+git branch //lista de versiones alternativas
+
+git branch nombre-de-la-nueva-versión //crear una nueva versión alternativa
+
+git checkout -- nombre-de-archivo //retroceder una versión
+
+git checkout nombre-de-versión-alternativa //cambiar entre versiones alternativas
+

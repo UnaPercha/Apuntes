@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Molort",
+        "apellido": "Mofetita",
+        "edad": 15,
+        "Servers": ["Chill",
+                    "NovaWorld",
+                    "Spacecraft"]
+    },
+    {
+        "nombre": "UnaPercha",
+        "apellido": "XD",
+        "edad": 17,
+        "Servers": ["Chill",
+                    "Programador",
+                    "Spacecraft"]
+    },
+    {
+        "nombre": "Day",
+        "apellido": "Pachón",
+        "edad": 16,
+        "Servers": ["Chill",
+                    "miamor",
+                    "UwU"]
+    }
+]
