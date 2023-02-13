@@ -1,0 +1,124 @@
+/*así es como se hace un comentario en css*/
+/*colorhunt.co/popular*/
+
+
+h1{
+     color:blueviolet; /*para ponerle color a este texto se hace de esta forma */
+    font-size: 50px; /*para cambiar el tamaño de la fuente usamos font-size: tamaño y px significa pixeles*/
+}
+/*ID Y CLASS*/
+#h1conid{ /*con el hastag podemos llamar a un id*/
+    color: blue;
+    font-size: 25px;
+}
+.h1conclass{ /*con el punto llamamos a la clase*/
+    color: brown;
+    font-size: 40px;
+} 
+.otro{
+    background-color: gray;
+}
+/*FORMAS DE REPRESENTAR COLORES*/
+.color{
+    /* Los colores en css se pueden representar con hexagesimal*/
+    color: #FFFF;
+    /*También con RGB*/
+    color: rgb(0, 0, 0);
+    /*comentar para ver diferencia*/
+}
+/*PAD Y PADDING*/
+h1.pad{ /*de esta forma estoy llamando solo a los h1 de la clase pad*/
+    background-color: #ec610a; /*se puede establecer el color de fondo*/
+    /*margin-left: 10px; /*esto es para el margen en la derecha, lo mismo para sus respectivos lados y si pongo solo margin se aplicará para todos lo mismo
+    margin-bottom: 50px; */
+    /*margin: 200px 100px; /*los 200px se aplican solo arriba y abajo y los 100px en izquierda y derecha*/
+    margin: 100px 10px 20px 50px; /*esta cantidad de pixeles se aplicará a la etiqueta en sentido horario empezando por 100px arriba por ejemplo*/
+}
+p.pad{
+    background-color: #a40a3c;
+    padding: 50px; /*hace lo mismo que el margen pero en lugar de hacerlo respecto a la página lo hace respecto a sí mismo*/
+    border: 2px solid #fff;/*con border añadimos un borde este borde tiene 3 propiedades grosor, color, tipo*/
+}
+
+/*FLEXBOX FUNDAMENTOS*/
+/*para usar flexbox sí o sí tendremos que agrupar todo lo que vamos a usar en un mismo contenedor, en este caso el contenedor es section*/
+nav{
+    background-color: #00b8a9;
+    padding: 20px;
+}
+
+.flexboxf{
+    background-color: #F6416C;
+    color: #F8F3D4;
+    padding: 20px;
+    width: 25%; /*le indicamos el ancho de cada párrafo al 25% de lo q es normalmente*/
+    margin: 10px;
+}
+.papaflexboxf{
+    display: flex; /*con esto le indico que la section ahora es flexbox*/
+    /*display: none*; hace que no veamos la etiqueta */
+}
+
+/*FLEXBOX*/
+.flexbox{
+    display: inline-block;
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.flexbox:hover{
+    background-color: rebeccapurple;
+}
+
+nav.flexbox{
+    display: flex;
+    background-color: rebeccapurple;
+    padding: 10;
+    /*estos estilos solo se podrán usar si display:flex;*/
+    /*justify-content: center; /*esto hará que todo lo que esté dentro de este contendor se reparta en el centro*/
+    /*justify-content: space-between;/*esto hará que todo lo que esté dentro de este contenedor se pege a los extremos*/
+    justify-content: space-around;/*este es parecido al anterior pero habrá un margen en los extremos*/
+    /*justify-content: flex-end; /*en este se nos colocarán todos al final del contenedor*/
+    /*flex-direction: column; /*de esta forma podemos cambiar la horientación del flex*/
+}
+
+/*BLOQUES*/
+/*los elementos de bloque son los que se situan uno debajo de otro, los de línea son los que se situan uno al lado del otro*/
+h1.bloque{
+    background-color: salmon;
+    display: inline-block; /*así le indicamos que queremos que sea una línea en lugar de un bloque, con lo cual en lugar de ponerse uno debajo de otro se pondrá uno al lado del otro*/
+    font-size: 49px;
+}
+a.bloque{
+    background-color: salmon;
+    display: block; /*así le indicamos que deje de ser un elemnto de bloque a un elemento de línea*/
+}
+
+/*NAVBAR*/
+.navbar{
+    display: inline-block;
+    background-color: springgreen ;
+    color: peru;
+    padding: 10px 30px;
+    text-decoration: none; /*quitamos todas las cosas que trae el texto por defecto como por ejemplo la línea que va debajo de los enlaces*/
+}
+.navbar:hover{ /*así se pueden indicar que queremos que cambie cuando pasemos el ratón por encima*/
+    background-color: seagreen;
+}
+nav.navbar{
+    background-color: rebeccapurple;
+    padding: 10px;
+}
+
+/*Pseudoclases*/
+.boton{
+    background-color: #404969;
+    color: #bde4f4;
+}
+.boton:hover{ /*este estilo solo se activará si tenemos el ratón encima*/
+    background-color: #ff7f50;
+}
+.boton:active{ /*este estilo solo se activará cuando clickemos*/
+    background-color: #FF4273;
+}

@@ -1,0 +1,38 @@
+/*ADAPTABILIDAD*/
+.flexbox{
+    display: inline-block;
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.flexbox:hover{
+    background-color: rebeccapurple;
+}
+
+nav.flexbox{
+    display: flex;
+    background-color: rebeccapurple;
+    padding: 10;
+    justify-content: space-around;
+}
+
+.flexboton{
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none; /*con display none el boton desaparece*/
+}
+/*suelen situarse a final de código*/
+@media (max-width:600px){ /*iniciamos @media (numero_maximo_pixeles:600px)*/
+    nav{
+        flex-direction: column; /*de esta forma podemos cambiar la horientación del flex*/
+    }
+    .flexbox{
+        margin: 10px 0px;
+    }
+    .flexboton{
+        display: inline-block;
+    }
+}
