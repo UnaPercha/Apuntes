@@ -46,9 +46,29 @@ git push -u origin main //subimos los archivos a GitHub
 git push --tags //subimos la nueva versión a GitHub
 
 git pull //trae los archivos de github a local
+
+PARA SINCRONIZAR UN REPOS DE GITHUB EN VSC ---->
+
+Ctrl+Shift+P //abre la paleta de comandos
+git clone/git clonar //especificamos que queremos clonar un repositorio de git
+pegar el link del respositorio
+ENTER
+seleccionar donde lo queremos guardar
+LISTO ya hemos clonado el respositorio
+posteriormente nos dirigmos a el apartado de VSC para git
+le damos a los ... después de haber hecho commit
+seleccionamos insertar
+LISTO, SUBIDO A GITHUB
+
+Si hemos hecho cambios desde github y lo queremos traer a vsc nos vamos a
+el botón de abajo a la izquierda al lado de la rama en la barra inferior
+son como dos flechas en rotonda
+le picamos y listo
+
+
 -------------------------RAMAS-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-git branch nombre_de-_la-_nueva-_rama //crear una nueva rama alternativa
+git branch nombre_de_la_nueva_rama //crear una nueva rama alternativa
 
 git branch //lista de ramas alternativas, además te indica en que rama te encuentras
 
@@ -63,3 +83,25 @@ git checkout -- nombre_de_archivo //retroceder una rama
 git merge nombre_rama //fusionar dos ramas
 
 git diff nombre_de_archivo //ver cambios realizados con las líneas de código
+
+-------------------------FORK-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        https://www.youtube.com/watch?v=4YlHQAETkPs&list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU&index=10&ab_channel=pildorasinformaticas
+SOMOS UN USUARIO QUE ENCUENTRA UN REPOSITORIO INTERESANTE
+    una vez encontremos un repositorio de github que nos interese
+    pulsar botón fork situado en la esquina superior derecha
+    y se nos comienza a hacer una copia de ese respositorio en nuesto perfil de github
+    
+    para que el dueño lo vea pulsamos en pull request situado debajo de la dirección de nuestro respositorio en github
+    pulsamos en New pull request
+    pulsamos en Create pull request
+    Escribimos título y comentario de la pull request
+    lo eviamos
+
+SOMOS EL DUEÑO DEL REPOSITORIO INTERESANTE
+    nos dirigmos al repositorio
+    le damos en pull request
+    clicamos en el que nos interese
+        podemos ver los cambios dandole en File changed
+        si vemos los cambios nos sale un boton que dice Review changes en la cual podemos hablarle al otro programador
+    para aceptar la pull request le damos a merge pull request
+    confirm merge
