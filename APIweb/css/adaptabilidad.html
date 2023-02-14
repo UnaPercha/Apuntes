@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adaptabilidad.css">
+    <title>Adaptabilidad</title>
+</head>
+<body>
+    <nav class="flexbox">
+        <button class="flexboton" onclick=desaparece()>Menú</button> <!--cuando_hagamos_click="funcion()"-->
+        <a class="flexbox desaparece" href="#">Inicio</a>
+        <a class="flexbox desaparece" href="#">Nosotros</a>
+        <a class="flexbox desaparece" href="#">Servicios</a>
+        <a class="flexbox desaparece" href="#">Contactos</a>
+    </nav>
+    <script> //esto es javascript
+        function desaparece() //declaramos una función
+        {
+            console.log('on');//lo mismo que el print de python
+            let flexbox = document.getElementsByClassName("flexbox"); //estamos guardando la clase flexbox en una variable con el mismo nombre
+            for(var i = 0; i < flexbox.length; i++) //bucle for que recorre cada flexbox
+            {
+                flexbox[i].classList.toggle("desaparece"); //por cada flexbox que active o desactive la clase "desaparece"
+            }
+        }
+    </script> 
+</body>
+</html>

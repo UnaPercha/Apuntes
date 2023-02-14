@@ -35,4 +35,7 @@ nav.flexbox{
     .flexboton{
         display: inline-block;
     }
+    .desaparece{
+        display: none;
+    }
 }

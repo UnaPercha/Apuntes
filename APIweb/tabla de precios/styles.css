@@ -1,0 +1,67 @@
+h2{
+    font-weight: 400; /*ancho de la fuente*/
+}
+p{
+    font-weight: 400;
+}
+
+.container{
+    margin: 0 auto; /*le indicamos un margen de 0 arriba y abajo y el de izquierda y derecha se rehará automáticamente respecto a lo que añadamos, por ejemplo un width o más elementos*/
+    width: 90%;
+    font-family: 'Lato', sans-serif;
+}
+
+.flex{
+    display: flex;
+    /*https://developer.mozilla.org/es/docs/Web/CSS/flex-wrap*/
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center; /*le indicamos que queremos el texto en el centro*/
+}
+
+.columna{
+    background-color: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px; /*le indicamos que queremos un borde redondo de 5px*/
+    /*https://developer.mozilla.org/es/docs/Web/CSS/box-shadow*/
+    box-shadow: 10px 10px 15px rgb(179, 179, 179); /*box-shadow: horizontal vertical degradado color*/
+    width: 23%;
+    /*https://developer.mozilla.org/es/docs/Web/CSS/box-sizing*/
+    box-sizing: border-box; /*incluimos el borde y el padding al width*/
+}
+
+.precio{
+    font-size: 50px; /*tamaño de fuente*/
+    color: #00dac7;
+}
+
+.btn-precio{
+    display: block;
+    background-color: salmon;
+    padding: 10px;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.btn-precio:hover{
+    background-color: rgb(248, 100, 83);
+}
+
+@media (max-width: 1070px){
+    .columna{
+        width: 48%;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

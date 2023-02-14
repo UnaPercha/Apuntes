@@ -1,0 +1,38 @@
+*{ /*para toda la página usamos * */
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 80%;
+    height: 500px;
+    background-color: #FF5C29;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row; /*por defecto está en row, indicará en que lugar del contenedor están posicionados respetando el orden*/
+    flex-wrap: wrap; /*manejamos la distribución de los hijos, por defecto es nowrap*/
+    /*justify-content: center;*/ /*indicará en que lugar del contenedor están posicionados sin respetar el orden*/
+    align-items: center; /*nos alinea los items donde le pidamos, solo funciona con una línea de elementos **si vamos a usar stretch los elementos hijos no deben tener height*/
+    align-content: flex-end; /*nos permite alinear los hijos donde le digamos, solo funciona con dos o más líneas de elementos*/
+}
+
+.hijo{
+    background-color: #00B285;
+    width: 200px;
+    height: 100px;
+    color: #fff;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    /*flex-grow: 1;*/ /*nos establece un ancho independientemente del ancho preestablecido, el ancho hace de mínimo*/
+    /*flex-shrink: 0;*/ /*restringe el ancho mínimo para que nunca sea menor a lo establecido, con 0 le decimos que el ancho sea el establecido en width*/
+    flex: 1 1 auto; /*== flex-grow: 1; flex-shrink;: 1; regularse automáticamente*/
+    /*order: 2;*/ /*definimos el orden (le damos prioridad a lo que queramos)*/
+}
+/*.otro{
+    order: 1; /*se visualiza mejor el ejemplo
+    align-self: flex-end; /*hace lo mismo que el align content pero solo para esta clase
+} */
