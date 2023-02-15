@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+.menu{
+    display: flex;
+}
+
+.submenu{
+    margin: 0 auto;
+    box-shadow: auto auto 5px rgb(179, 179, 179);
+}
+.logo{
+    margin: 0 auto;
+    color: white;
+}
+.RRSS{
+    margin: 0 auto;
+    color: white;
+}
+
+.inicio{
+    margin: 0 auto;
+    color: white;
+}
+.nosotros{
+    margin: 0 auto;
+    color: white;
+}
+.servicio{
+    margin: 0 auto;    
+    color: white;
+}
+.noticias{
+    margin: 0 auto;
+    color: white;
+}
+.contacto{
+    margin: 0 auto;
+    color: white;
+}
+
+.logo-inicio{
+    display: inline-block;
+}
+.logo-nosotros{
+    display: inline-block;
+
+}
+.logo-servicio{
+    display: inline-block;
+
+}
+.logo-noticias{
+    display: inline-block;
+
+}
+.logo-contacto{
+    display: inline-block;
+}
+
+p#lorem{
+    margin: 21%;
+    width: auto;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
