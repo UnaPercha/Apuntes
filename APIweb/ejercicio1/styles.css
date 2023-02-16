@@ -1,67 +1,84 @@
-body{
-    background-color: black;
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
 }
-.menu{
+
+.padre{
     display: flex;
+    flex-flow: column nowrap; /*le ponemos column porque lo queremos como columna y no wrap para que se autoadapte segun el tamaño establecido*/
+}
+    .header{
+        background-color: #000;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu{
+            background-color: #2D4059;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 100px;
+            align-items: center;
+        }
+            .logo{
+                background-color: #ea5455;
+                flex: 1 1 auto; /*el primer 1 significa que ocupe el 100% a lo ancho, el segundo 100 a lo alto y el auto significa que se reajusta automaticamente*/
+            }
+            .nav{
+                background-color: #ea5455;
+                flex: 5 1 auto;
+            }
+            .social{
+                background-color: #ea5455;
+                flex: 1 1 auto;
+            }
+        .texto-principal{
+            background-color: #f07b3f;
+        }
+            h1{
+                background-color: #FFD460;
+            }
+    .section{
+        background-color: #000;
+        display: flex;
+    }
+        .articulos{
+            background-color: #4E4E6A;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap; /*wrap coloca automáticamente abajo el articulo si el espacio no llega*/
+        }
+            .article{
+                background-color: #1f6cb0;
+                flex: 1 1 40%; /*este cuarenta es el ancho*/
+            }
+            .navegacion{
+                background-color: #70a3c4;
+                flex: 1 1 100%;
+            }
+        .aside{
+            background-color: #f73f52;
+            flex: 1 1 auto;
+        }
+            .publicidad{
+                background-color: #ffeab5;
+            }
+    .footer{
+        background-color:#000;
+        display: flex;
+        justify-content: center;
+    }
+        .pie{
+            background-color: #e6af2e;
+            width: 300px;
+        }
+@media all and(max-width= 800px){
+    .section{
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+        height: auto;
+    }
 }
 
-.submenu{
-    margin: 0 auto;
-    box-shadow: auto auto 5px rgb(179, 179, 179);
-}
-.logo{
-    margin: 0 auto;
-    color: white;
-}
-.RRSS{
-    margin: 0 auto;
-    color: white;
-}
-
-.inicio{
-    margin: 0 auto;
-    color: white;
-}
-.nosotros{
-    margin: 0 auto;
-    color: white;
-}
-.servicio{
-    margin: 0 auto;    
-    color: white;
-}
-.noticias{
-    margin: 0 auto;
-    color: white;
-}
-.contacto{
-    margin: 0 auto;
-    color: white;
-}
-
-.logo-inicio{
-    display: inline-block;
-}
-.logo-nosotros{
-    display: inline-block;
-
-}
-.logo-servicio{
-    display: inline-block;
-
-}
-.logo-noticias{
-    display: inline-block;
-
-}
-.logo-contacto{
-    display: inline-block;
-}
-
-p#lorem{
-    margin: 21%;
-    width: auto;
-    text-align: center;
-    font-size: 30px;
-    color: white;
-}
